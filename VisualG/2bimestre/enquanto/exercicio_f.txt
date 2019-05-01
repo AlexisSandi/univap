@@ -1,0 +1,12 @@
+Algoritmo "f"
+Var
+	num, soma:inteiro
+Inicio
+		num <- 1
+		enquanto num <= 200 faca
+          se (num%4=0) entao
+              escreval ("Divisivel por quatro e menor que 200:",num)
+          fimse
+          num <- num + 1
+		fimenquanto
+Fimalgoritmo

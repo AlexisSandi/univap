@@ -1,0 +1,11 @@
+Algoritmo "d"
+Var
+	num, soma:inteiro
+Inicio
+		num <- 2
+		enquanto num <= 500 faca
+          soma <- soma+num
+          num <- num + 2
+		fimenquanto
+		escreval("A soma dos números pares de 1 à 500 é:", soma)
+Fimalgoritmo

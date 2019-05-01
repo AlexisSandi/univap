@@ -1,0 +1,14 @@
+Algoritmo "b"
+Var
+	res, num, tabdo:inteiro
+Inicio
+		escreval("Qual tabuada deseja saber?")
+		leia (tabdo)
+		escreval("Tabuada do",tabdo,":")
+		num <- 1
+		enquanto num <= 10 faca
+           res<-num*tabdo
+           escreval ("|",tabdo," X",num," =",res)
+           num <- num+1
+		fimenquanto
+Fimalgoritmo

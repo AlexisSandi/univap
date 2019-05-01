@@ -1,0 +1,19 @@
+Algoritmo "s"
+Var
+	num, dividendo, divisor, quant:inteiro
+Inicio
+    escreval("Digite o dividendo:")
+    leia(dividendo)
+    escreval("Digite o divisor:")
+    leia(divisor)
+    enquanto num <= dividendo faca
+        quant <- quant + 1
+        num <- num + divisor
+    fimenquanto
+	quant <- quant-1
+	se (dividendo<divisor) entao
+        escreval("O valor do dividendo deve ser maior do que o do divisor!")
+	senao
+        escreval(dividendo," dividido por", divisor," =",quant, " e resta:", dividendo%divisor)
+ 	fimse
+Fimalgoritmo

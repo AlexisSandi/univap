@@ -1,0 +1,14 @@
+Algoritmo "k"
+Var
+	num:inteiro
+   qtdegraos, soma:real
+Inicio
+    escreval("Grãos de trigo (Xadrez):")
+    qtdegraos <-1
+    enquanto num <= 63 faca
+        soma <-qtdegraos+soma
+        qtdegraos<-qtdegraos*2
+        num <- num + 1
+	fimenquanto
+	     escreval(num, "º quadro:", qtdegraos, " graos")
+Fimalgoritmo

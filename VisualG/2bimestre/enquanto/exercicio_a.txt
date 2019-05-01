@@ -1,0 +1,12 @@
+Algoritmo "a"
+Var
+	num,res:inteiro
+Inicio
+		escreval("Números inteiros de 15 a 200:")
+		num <- 15
+		enquanto num<=200 faca
+           num <- num+1
+           res<-num*num
+           escreval ("O quadrado de",num," é",res)
+		fimenquanto
+Fimalgoritmo

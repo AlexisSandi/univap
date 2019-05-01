@@ -1,0 +1,11 @@
+Algoritmo "e"
+Var
+	num:inteiro
+Inicio
+      enquanto num <= 20 faca
+          se (num%2=1) entao
+          		escreval("Ímpar entre 0 e 20:", num)
+          fimse
+          num <- num + 1
+      fimenquanto
+Fimalgoritmo
