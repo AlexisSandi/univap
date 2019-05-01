@@ -1,0 +1,22 @@
+Algoritmo "F"
+Var
+a,b,c:real
+procedimento Somaquadrado (x:inteiro;y:inteiro;z:inteiro)
+var
+soma,q1,q2,q3:inteiro
+inicio
+q1<-x*x
+q2<-y*y
+q3<-z*z
+soma<-q1+q2+q3
+Escreval("A soma dos quadrados dos valor =",soma)
+fimprocedimento
+Inicio
+      escreval("Digite um valor:")
+      leia(a)
+      escreval("Digite outro valor:")
+      leia(b)
+      escreval("Digite another valor:")
+      leia(c)
+      Somaquadrado(a,b,c)
+Fimalgoritmo

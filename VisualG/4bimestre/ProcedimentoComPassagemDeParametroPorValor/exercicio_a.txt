@@ -1,0 +1,19 @@
+Algoritmo "A"
+Var
+a,b,c:real
+procedimento prestacao (x:real; y:real; z:real )
+var
+     prest:real
+inicio
+     prest<- x+(x*(y/100)*z);
+     escreval("O valor da prestacao atrasada = ",prest)
+fimprocedimento
+Inicio
+      escreval("Digite o valor da prestacao: \n")
+      leia(a)
+      escreval("Digite o valor da taxa mensal: \n")
+      leia(b)
+      escreval("Digite a quantidade de meses atrasados: \n")
+      leia(c)
+      prestacao(a,b,c)
+Fimalgoritmo

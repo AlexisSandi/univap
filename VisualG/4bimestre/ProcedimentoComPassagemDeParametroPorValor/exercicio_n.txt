@@ -1,0 +1,22 @@
+Algoritmo "N"
+Var
+d:real
+nome,sexo:caractere
+procedimento con (no:caractere;sex:caractere)
+var 
+inicio
+      se(sex="m")entao
+         escreva ("Ilmo Sr.",no)
+      senao
+           escreva ("Ilma Sr.",no)
+      fimse
+fimprocedimento 
+Inicio
+escreva ("Digite seu nome : ")
+leia (nome)
+escreva ("Digite seu sexo (m/f) : ")
+leia (sexo)
+con (nome,sexo)
+ 
+ 
+Fimalgoritmo 

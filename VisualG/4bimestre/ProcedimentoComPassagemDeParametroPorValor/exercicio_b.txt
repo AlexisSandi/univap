@@ -1,0 +1,18 @@
+Algoritmo "B"
+Var
+a:real
+procedimento soma (x:inteiro)
+var
+cont,somatotal:inteiro
+inicio
+     para cont de 1 ate x faca
+     somatotal<-somatotal+cont
+     fimpara
+     escreval("A soma total de todos os valores de 1 ate ",x," = ",somatotal)
+
+fimprocedimento
+Inicio
+      escreval("Digite o valor da soma: \n")
+      leia(a)
+      soma(a)
+Fimalgoritmo

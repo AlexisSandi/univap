@@ -1,0 +1,18 @@
+Algoritmo "M"
+Var
+d:real
+procedimento con ( a:real)
+var
+inicio
+      se (a<0)entao
+         a<-a*(-1)
+         escreva ("O valor é = ",a)
+      senao
+           escreva ("O valor é = ",a)
+      fimse
+fimprocedimento
+Inicio
+escreva ("Digite um valor: ")
+leia (d)
+con (d) 
+Fimalgoritmo 

@@ -1,0 +1,15 @@
+Algoritmo "H"
+Var
+a,b,c:real
+procedimento temperatura (x:real)
+var
+fah:real
+inicio
+fah<-(x/5)*9+32
+escreval("A temperatura em Fahrenheit =",fah)
+fimprocedimento
+Inicio
+      escreval("Digite um valor em Celsius:")
+      leia(a)
+      temperatura(a)
+Fimalgoritmo

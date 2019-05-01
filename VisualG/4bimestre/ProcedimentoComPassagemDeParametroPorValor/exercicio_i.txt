@@ -1,0 +1,15 @@
+Algoritmo "I"
+Var
+d,c:real
+procedimento con (a:real;b:real)
+var
+inicio
+                escreval (d," Dólares é = ",a*b," reais")
+fimprocedimento
+Inicio
+escreva ("Digite o valor em dólares que deseja converter : ")
+leia (d)
+escreva ("Digite a cotação do dólar : ")
+leia (c)
+con(d,c)
+Fimalgoritmo

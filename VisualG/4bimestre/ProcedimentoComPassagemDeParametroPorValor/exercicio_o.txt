@@ -1,0 +1,19 @@
+Algoritmo "O"
+Var
+d:real
+nome,sexo:caractere
+procedimento con (a:inteiro)
+var
+   cont,fat:inteiro
+inicio
+      fat<-1
+      para cont de 1 ate a faca
+           fat<-fat*cont
+      fimpara
+      escreval ("A fatorial é = ",fat)
+fimprocedimento
+Inicio
+escreva ("Digite o número : ")
+leia (d)
+con (d)
+Fimalgoritmo
