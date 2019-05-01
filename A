@@ -1,0 +1,12 @@
+# a) algoritmo "Conversão C para F"
+
+var
+    Tc , Tf : Real
+inicio
+    Escreval ("Conversao C para F")
+Escreva ("Digite a temperatura em Celcius: ")
+leia ( Tc)
+    Tf<-(Tc/5)*9+32
+Escreval ("A temperatura em Fahrenheit Equivalente a temperatura em Celcius é de  = ",Tf)
+
+fimalgoritmo
