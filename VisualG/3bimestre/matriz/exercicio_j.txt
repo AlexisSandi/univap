@@ -1,0 +1,23 @@
+Algoritmo "J"
+Var
+   cont,cont1,cont2,fatorial,total:inteiro
+   A:vetor[1..5,1..6]de inteiro
+   B:vetor[1..5,1..6]de inteiro
+Inicio
+   para cont de 1 ate 5 faca
+      para cont1 de 1 ate 6 faca
+         escreva("Digite o valor em (",cont,cont1," : ")
+         leia(A[cont,cont1])
+         se(A[cont,cont1]%2<>0) entao
+            B[cont,cont1]<-A[cont,cont1]-4
+         senao
+            B[cont,cont1]<-A[cont,cont1]+5
+         fimse
+      fimpara
+   fimpara
+   para cont de 1 ate 5 faca
+      para cont1 de 1 ate 6 faca
+         escreval("Linha: ",cont," coluna: ",cont1," temos: ",B[cont,cont1])
+      fimpara
+   fimpara
+Fimalgoritmo

@@ -1,0 +1,21 @@
+Algoritmo "G"
+Var
+   cont,cont1,cont2,fatorial:inteiro
+   A:vetor[1..5,1..4]de real
+   B:vetor[1..5,1..4]de real
+Inicio
+   para cont de 1 ate 5 faca
+      para cont1 de 1 ate 4 faca
+         escreva("Digite a temperatura em Celsius: ")
+         leia(A[cont,cont1])
+         B[cont,cont1]<-(A[cont,cont1]/5)*9+32
+      fimpara
+      fimpara
+      para cont de 1 ate 5 faca
+         para cont1 de 1 ate 4 faca
+            escreval("A temperatura em Celsius: ",A[cont,cont1])
+            escreval("A temperatura em Fahrenheint: ",B[cont,cont1])
+         fimpara
+      fimpara
+
+Fimalgoritmo

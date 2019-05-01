@@ -1,0 +1,24 @@
+Algoritmo "F"
+Var
+   cont,cont1,cont2,fatorial:inteiro
+   A:vetor[1..5,1..4]de inteiro
+   B:vetor[1..5,1..4]de inteiro
+Inicio
+   para cont de 1 ate 5 faca
+      para cont1 de 1 ate 4 faca
+         escreva("Digite o valor (Matriz 1): ")
+         leia(A[cont,cont1])
+         fatorial<-1;
+         para cont2 de 1 ate A[cont,cont1]faca
+            fatorial<-fatorial*cont2
+         fimpara
+         B[cont,cont1]<-fatorial
+      fimpara
+      fimpara
+      para cont de 1 ate 5 faca
+         para cont1 de 1 ate 4 faca
+            escreval("A fatorial da Matriz A: ",B[cont,cont1])
+         fimpara
+      fimpara
+
+Fimalgoritmo

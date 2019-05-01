@@ -1,0 +1,23 @@
+Algoritmo "H"
+Var
+   cont,cont1,cont2,fatorial:inteiro
+   A:vetor[1..5,1..5]de inteiro
+   B:vetor[1..5,1..5]de inteiro
+Inicio
+   para cont de 1 ate 5 faca
+      para cont1 de 1 ate 5 faca
+         escreva("Digite um valor: ")
+         leia(A[cont,cont1])
+         se(cont<>cont1)entao
+            B[cont,cont1]<-A[cont,cont1]*2
+         senao
+            B[cont,cont1]<-A[cont,cont1]*3
+         fimse
+      fimpara
+   fimpara
+   para cont de 1 ate 5 faca
+      para cont1 de 1 ate 5 faca
+         escreval("Linha: ",cont," coluna: ",cont1," temos: ",B[cont,cont1])
+      fimpara
+   fimpara
+Fimalgoritmo

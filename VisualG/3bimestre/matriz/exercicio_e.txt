@@ -1,0 +1,24 @@
+Algoritmo "E"
+Var
+   cont,cont1:inteiro
+   A:vetor[1..12]de inteiro
+   B:vetor[1..12]de inteiro
+   C:vetor[1..12,1..2]de inteiro
+Inicio
+   para cont de 1 ate 12 faca
+      escreva("Digite o valor (Matriz 1): ")
+      leia(A[cont])
+      C[cont,1]<-A[cont]*2
+   fimpara
+   para cont de 1 ate 12 faca
+      escreva("Digite o valor (Matriz 2): ")
+      leia(B[cont])
+      C[cont,2]<-B[cont]-5
+   fimpara
+   para cont de 1 ate 12 faca
+      escreval (" 1 coluna:",C[cont,1])
+   fimpara
+   para cont de 1 ate 12 faca
+      escreval(" 2 coluna: ",C[cont,2])
+   fimpara
+Fimalgoritmo

@@ -1,0 +1,23 @@
+Algoritmo "D"
+Var
+   cont,cont1,fatorial:inteiro
+   A:vetor[1..10]de inteiro
+   C:vetor[1..10,1..3]de inteiro
+Inicio
+   para cont de 1 ate 10 faca
+      escreva("Digite o valor (Matriz 1): ")
+      leia(A[cont])
+   fimpara
+   para cont de 1 ate 10 faca
+      fatorial<-1
+      C[cont,1]<-A[cont]+5
+      para cont1 de 1 ate A[cont] faca
+         fatorial<-fatorial*cont1
+      fimpara
+      C[cont,2]<-fatorial;
+      C[cont,3]<-A[cont]*A[cont]
+   fimpara
+   para cont de 1 ate 10 faca
+      escreval (" 1 coluna:",C[cont,1]," 2 coluna: ",C[cont,2]," 3 coluna: ",C[cont,3])
+   fimpara
+Fimalgoritmo

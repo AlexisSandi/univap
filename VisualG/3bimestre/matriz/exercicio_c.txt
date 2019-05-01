@@ -1,0 +1,18 @@
+Algoritmo "C"
+Var
+   cont,cont1:inteiro
+   A:vetor[1..4,1..5]de inteiro
+
+Inicio
+   para cont de 1 ate 4 faca
+      para cont1 de 1 ate 5 faca
+         escreval("Digite o valor (Matriz 1): ")
+         leia(A[cont,cont1])
+      fimpara
+   fimpara
+   para cont de 1 ate 4 faca
+      para cont1 de 1 ate 5 faca
+         escreval("O valor digitad0 (Matriz 1): ",A[cont,cont1])
+      fimpara
+   fimpara
+Fimalgoritmo

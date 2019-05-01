@@ -1,0 +1,24 @@
+Algoritmo "B"
+Var
+   cont,cont1:inteiro
+   A:vetor[1..7]de inteiro
+   B:vetor[1..7]de inteiro
+   C:vetor[1..2,1..7]de inteiro
+
+Inicio
+   para cont de 1 ate 7 faca
+      escreva("Digite o valor (Matriz 1): ")
+      leia(A[cont])
+      C[1,cont]<-A[cont]
+   fimpara
+   para cont de 1 ate 7 faca
+      escreva("Digite o valor (Matriz 2): ")
+      leia(B[cont])
+      C[2,cont]<-B[cont]
+   fimpara
+   para cont de 1 ate 2 faca
+      para cont1 de 1 ate 7 faca
+         escreval("O valor digitado (Matriz C):",C[cont,cont1])
+      fimpara
+   fimpara
+Fimalgoritmo

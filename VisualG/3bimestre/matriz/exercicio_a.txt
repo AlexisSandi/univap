@@ -1,0 +1,26 @@
+Algoritmo "A"
+Var
+ cont,cont1:inteiro
+ A:vetor[1..5,1..3]de inteiro
+ B:vetor[1..5,1..3]de inteiro
+ C:vetor[1..5,1..3]de inteiro
+Inicio
+	para cont de 1 ate 5 faca
+		para cont1 de 1 ate 3 faca
+		escreva("Digite o valor (Matriz 1): ")
+		leia(A[cont,cont1])
+        fimpara
+    fimpara
+	para cont de 1 ate 5 faca
+		para cont1 de 1 ate 3 faca
+		escreva("Digite o valor (Matriz 2): ")
+		leia(B[cont,cont1])
+		C[cont,cont1]<-A[cont,cont1]+B[cont,cont1]
+        fimpara
+    fimpara
+	para cont de 1 ate 5 faca
+		para cont1 de 1 ate 3 faca
+		escreval("A soma de ",A[cont,cont1]," com",B[cont,cont1]," =",C[cont,cont1])
+        fimpara
+    fimpara
+Fimalgoritmo
