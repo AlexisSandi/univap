@@ -1,0 +1,21 @@
+Algoritmo "D"
+Var
+a,b:real
+procedimento potenci (var x:inteiro;y:inteiro)
+var
+cont,potencia:inteiro
+inicio
+potencia<-x
+x<-1
+     para cont de 1 ate y faca
+     x<-x*potencia
+     fimpara
+fimprocedimento
+Inicio
+      escreval("Digite o valor da base: \n")
+      leia(a)
+      escreval("Digite o valor do expoente: \n")
+      leia(b)
+      potenci(a,b)
+      escreval("O resultado da potencia = ",a)
+Fimalgoritmo

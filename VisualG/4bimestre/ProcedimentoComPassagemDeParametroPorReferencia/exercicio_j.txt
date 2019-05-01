@@ -1,0 +1,24 @@
+Algoritmo "J"
+Var
+d:real
+procedimento con (var a:real)
+var
+di1,di2:real
+inicio
+      di1<-a%2
+      di2<-a%3
+      se((di1=0) e (di2=0)) entao
+         a<-0
+      fimse  
+fimprocedimento
+Inicio
+escreva ("Digite um valor: ")
+leia (d)
+con (d)
+se(d=0)entao
+   escreval ("é divisivel por 2 e 3")
+senao
+     escreval ("valor inválido")
+fimse
+ 
+Fimalgoritmo

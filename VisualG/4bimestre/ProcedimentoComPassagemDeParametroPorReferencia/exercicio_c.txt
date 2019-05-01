@@ -1,0 +1,23 @@
+Algoritmo "C"
+Var
+a:real
+procedimento fibonacci (var x:inteiro)
+var
+cont,a,b,auxiliar:inteiro
+inicio
+     a<-0
+     b<-1
+     auxiliar<-x
+     x<-0
+     para cont de 1 ate auxiliar-1 faca
+     x<-a+b
+     a<-b
+     b<-x
+     fimpara
+fimprocedimento
+Inicio
+      escreval("Digite o valor do fibonacci: \n")
+      leia(a)
+      fibonacci(a)
+      escreval("O Fibonacci =",a)
+Fimalgoritmo

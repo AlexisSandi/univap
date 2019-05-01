@@ -1,0 +1,18 @@
+Algoritmo "E"
+Var
+a,b:real
+procedimento Par (var x:inteiro)
+var
+inicio
+x<-x%2
+fimprocedimento
+Inicio
+      escreval("Digite o valor:")
+      leia(a)
+      Par(a)
+      se (a=0)entao
+          escreval("O número é par")
+      senao
+           escreval("O número é impar")
+      fimse
+Fimalgoritmo

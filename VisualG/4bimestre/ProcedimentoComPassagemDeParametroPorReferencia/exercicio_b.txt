@@ -1,0 +1,19 @@
+Algoritmo "B"
+Var
+a:real
+procedimento soma (var x:inteiro)
+var
+cont,valor:inteiro
+inicio
+      valor<-x
+      x<-0
+     para cont de 1 ate valor faca
+     x<-x+cont
+     fimpara
+fimprocedimento
+Inicio
+      escreval("Digite o valor da soma: \n")
+      leia(a)
+      soma(a)
+      escreval("A soma total de todos os valores =",a)
+Fimalgoritmo
