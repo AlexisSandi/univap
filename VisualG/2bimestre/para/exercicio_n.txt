@@ -1,0 +1,19 @@
+Algoritmo "n"
+Var
+ soma, total, media:real
+	contador,num :inteiro
+Inicio
+	para  contador de 1 ate 100000000 faca
+	      escreval("Digite um valor 'x' (x < 0 para finalizar)")
+	      leia (num)
+         se (num<0)entao
+            contador <- 100000000
+         senao
+                  soma <- soma + num
+   		         total <- total + 1
+   		fimse
+	fimpara
+	escreval("Somatória:", soma)
+	escreval("Total de números inseridos:", total)
+	escreval("Média:", soma/total)
+Fimalgoritmo

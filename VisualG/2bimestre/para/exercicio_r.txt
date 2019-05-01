@@ -1,0 +1,29 @@
+Algoritmo "r"
+Var
+	num, maior, menor:inteiro
+Inicio
+	escreval("Digites números para saber qual o maior e o menor")
+	escreval("(Para finalizar digite um número negativo):")
+	leia(num)
+	maior <- num
+	menor <- num
+    para num de 0 ate 1000 faca
+    se (num <> 0)entao
+    num<-1000
+    senao
+    
+        leia(num)
+        se(num>maior) entao
+        	maior <- num
+        senao
+        	se (num>=0) entao
+        		se(num<menor) entao
+	        		menor <- num
+        		fimse
+        	fimse
+        fimse
+
+    fimpara
+    escreval("O maior número digitado foi:", maior)
+    escreval("E o menor:", menor)
+Fimalgoritmo

@@ -1,0 +1,12 @@
+Algoritmo "a"
+Var
+	num,res:inteiro
+Inicio
+
+	escreval("Quadrado dos números inteiros de 15 a 200:")
+	para num de 15 ate 200 faca
+         res<-num*num
+        escreval("Quadrado do",num," =",res)
+	fimpara
+Fimalgoritmo
+

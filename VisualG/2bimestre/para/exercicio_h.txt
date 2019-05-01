@@ -1,0 +1,17 @@
+Algoritmo "h"
+Var
+	rr,base,expo,cont:inteiro
+Inicio
+escreval ("Só digite números inteiros e positivos!")
+escreva ("Digite a base:")
+leia (base)
+escreva ("Digite o expoente:")
+leia (expo)
+rr<-rr + 1
+para cont de 1 ate expo faca
+rr<-rr*base
+fimpara
+escreva ("Resultado da conta : ",rr)
+
+Fimalgoritmo
+

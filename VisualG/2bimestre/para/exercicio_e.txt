@@ -1,0 +1,10 @@
+Algoritmo "e"
+Var
+	soma,num:inteiro
+Inicio
+	para num de 0 ate 20 faca
+        se (num%2=1) entao
+       		escreval("Ímpar entre 0 e 20:", num)
+        fimse
+	fimpara
+Fimalgoritmo

@@ -1,0 +1,13 @@
+Algoritmo "k"
+Var
+	contador:inteiro
+    soma, qtdegraos:real
+Inicio
+    escreval("Grãos de trigo (Xadrez):")
+    qtdegraos<-1
+	para contador de 1 ate 64 faca
+        soma <-qtdegraos+soma
+        qtdegraos<-qtdegraos*2
+	fimpara
+        escreval(contador, "º quadro:", qtdegraos, " graos")
+Fimalgoritmo

@@ -1,0 +1,9 @@
+Algoritmo "c"
+Var
+	num, soma:inteiro
+Inicio
+	para num de 1 ate 100 faca
+        soma <- soma+num
+	fimpara
+	escreval("A soma dos 100 primeiros números é:", soma)
+Fimalgoritmo
