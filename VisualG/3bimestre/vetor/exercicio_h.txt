@@ -1,0 +1,16 @@
+Algoritmo "H"
+Var
+   cont:inteiro
+   A:vetor[1..20] de inteiro
+   B:vetor[1..20] de inteiro
+Inicio
+   para cont de 1 ate 20 faca
+      escreva("Digite o ",cont," valor: (Vetor A)")
+      leia(A[cont])
+      B[21-cont]<-A[cont]
+   fimpara
+   para cont de 1 ate 20 faca
+      escreval("O ",cont," valor do vetor A =:",A[cont])
+      escreval("O ",cont," valor do vetor B =:",B[cont])
+fimpara
+Fimalgoritmo

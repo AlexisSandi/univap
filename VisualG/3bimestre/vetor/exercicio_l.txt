@@ -1,0 +1,18 @@
+Algoritmo "L"
+Var
+   cont:inteiro
+   A:vetor[1..10] de inteiro
+   B:vetor[1..10] de real
+Inicio
+   para cont de 1 ate 10 faca
+      escreva("Digite o ",cont," valor: (Vetor A)")
+      leia(A[cont])
+      B[cont]<-A[cont]/2
+   fimpara
+   para cont de 1 ate 10 faca
+      escreval("O ",cont," valor (vetor A) =:",A[cont])
+   fimpara
+   para cont de 1 ate 10 faca
+      escreval("O ",cont," valor (vetor B) =:",B[cont])
+   fimpara
+Fimalgoritmo

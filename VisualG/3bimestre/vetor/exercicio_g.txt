@@ -1,0 +1,21 @@
+Algoritmo "G"
+Var
+   cont:inteiro
+   A:vetor[1..20] de inteiro
+   B:vetor[1..30] de inteiro
+   C:vetor [1..50] de inteiro
+Inicio
+   para cont de 1 ate 20 faca
+      escreva("Digite o ",cont," valor:")
+      leia(A[cont])
+      c[cont]<-A[cont]
+   fimpara
+   para cont de 1 ate 30 faca
+      escreva("Digite o ",cont," valor:")
+      leia(B[cont])
+      c[cont+20]<-B[cont]
+   fimpara
+   para cont de 1 ate 50 faca
+      escreval ("O ",cont," valor: ",C[cont])
+   fimpara
+Fimalgoritmo

@@ -1,0 +1,20 @@
+Algoritmo "E"
+Var
+   a:vetor[1..15]de inteiro
+   b:vetor[1..15]de inteiro
+   cont,cont1:inteiro
+   x,fatorial:inteiro
+
+Inicio
+fatorial<-1
+para cont de 1 ate 15 faca
+     escreval("Digite o",cont," valor para a fatorial:")
+     leia(a[cont])
+           para cont1 de 1 ate a[cont] faca
+           fatorial<-fatorial*cont1
+           B[cont]<-fatorial
+           fimpara
+      fatorial<-1
+      escreval("O valor da fatorial do ",cont,"º valor =",B[cont])
+fimpara
+Fimalgoritmo

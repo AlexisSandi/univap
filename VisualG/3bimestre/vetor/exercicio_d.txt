@@ -1,0 +1,15 @@
+Algoritmo "D"
+Var
+   cont:inteiro
+   A:vetor[1..15] de inteiro
+   B:vetor[1..15] de inteiro
+Inicio
+   para cont de 1 ate 15 faca
+      escreva("Digite o ",cont," valor:")
+      leia(A[cont])
+      B[cont]<-A[cont]*A[cont]
+   fimpara
+   para cont de 1 ate 15 faca
+      escreval("O quadrado de ",A[cont]," valor = ",B[cont])
+   fimpara
+Fimalgoritmo

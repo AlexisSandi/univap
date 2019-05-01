@@ -1,0 +1,15 @@
+algoritmo "B"
+var
+   cont:inteiro
+   A:vetor[1..8] de inteiro
+   B:vetor[1..8] de inteiro
+inicio
+  para cont de 1 ate 8 faca
+       escreval("Digite o ",cont," valor:")
+       leia(A[cont])
+       B[cont]<-A[cont]*3
+  fimpara
+  para cont de 1 ate 8 faca
+       escreval(cont,"º valor digitado multiplicado por 3 =",B[cont])
+  fimpara
+fimalgoritmo

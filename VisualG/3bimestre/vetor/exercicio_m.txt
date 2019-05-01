@@ -1,0 +1,15 @@
+Algoritmo "M"
+Var
+   cont,tabuada:inteiro
+   A:vetor[1..10] de inteiro
+   B:vetor[1..10] de real
+Inicio
+   escreva("Digite o valor: (Tabuada)")
+   leia(tabuada)
+   para cont de 1 ate 10 faca
+      A[cont]<-tabuada*cont
+   fimpara
+   para cont de 1 ate 10 faca
+      escreval(tabuada," x",cont," =",A[cont])
+   fimpara
+Fimalgoritmo

@@ -1,0 +1,22 @@
+Algoritmo "C"
+Var
+   cont1:inteiro
+   A:Vetor[1..20] de inteiro
+   B:Vetor[1..20] de inteiro
+   C:vetor[1..20] de inteiro
+Inicio
+   para cont1 de 1 ate 20 faca
+      escreval("Digite o ",cont1,"º valor:")
+      leia(A[cont1])
+   fimpara
+   para cont1 de 1 ate 20 faca
+      escreval("Digite o ",cont1,"º valor:")
+      leia(B[cont1])
+   fimpara
+   para cont1 de 1 ate 20 faca
+      C[cont1]<-A[cont1]-B[cont1]
+   fimpara
+   para cont1 de 1 ate 20 faca
+      escreval("A diferença do valor:",A[cont1]," do valor ",B[cont1]," = ",C[cont1])
+   fimpara
+Fimalgoritmo
