@@ -1,0 +1,12 @@
+Algoritmo "j"
+Var
+	num:inteiro
+    numTof:real
+Inicio
+    escreval("Graus Celsius p/ Fahrenheit de 10 em 10:")
+    repita
+        numToF <- (num*9/5)+32
+        escreval(num, "°C =", numToF, "°F")
+        num <- num + 10
+	ate nao(num <= 100)
+Fimalgoritmo

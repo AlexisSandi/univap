@@ -1,0 +1,15 @@
+Algoritmo "i"
+Var
+	num, ult, sult, tult:inteiro
+Inicio
+    escreval("Série de Fibonacci:")
+    sult <- 1
+    num <- 1
+    repita
+        ult <- sult + tult
+        sult <- tult
+        tult <- ult
+        escreval(num, "º Termo:", ult)
+        num <- num + 1
+	ate nao(num <= 15)
+Fimalgoritmo

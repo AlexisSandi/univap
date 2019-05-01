@@ -1,0 +1,15 @@
+Algoritmo "n"
+Var
+	num, soma, total, media:real
+Inicio
+	escreval("Digite valores de 'x' (x < 0 para finalizar)")
+	leia (num)
+	repita
+		soma <- soma + num
+		total <- total + 1
+		leia(num)
+	ate nao(num >= 0)
+	escreval("Somatória:", soma)
+	escreval("Total de números inseridos:", total)
+	escreval("Média:", soma/total)
+Fimalgoritmo

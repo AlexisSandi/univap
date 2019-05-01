@@ -1,0 +1,17 @@
+Algoritmo "o"
+Var
+	num, fator, temp:inteiro
+Inicio
+    escreval("Fator de números ímpares de 1 a 10:")
+    num <- 1
+    repita
+        fator <- 1
+        temp <- 1
+        repita
+    	    fator <- fator*temp
+    	    temp <- temp + 1
+        ate nao(temp <= num)
+        escreval("O fator do número:",num," é:", fator)
+    	num <- num + 2
+	ate nao(num <= 10)
+Fimalgoritmo

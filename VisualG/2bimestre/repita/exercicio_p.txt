@@ -1,0 +1,13 @@
+Algoritmo "p"
+Var
+	num, soma:inteiro
+Inicio
+    escreval("Soma e média dos números pares entre 50 e 70:")
+    num <- 50
+    repita
+        soma <- soma + num
+        num <- num + 2
+	ate nao(num <= 70)
+	escreval("A soma dos números é:",soma)
+    escreval("E a média é:",soma/11)
+Fimalgoritmo

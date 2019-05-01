@@ -1,0 +1,20 @@
+Algoritmo "l" 
+Var
+	num, numFunc, soma, fatorial, fator:real
+Inicio
+    escreval("Soma fatorial")
+    num <- 1
+    repita
+        escreval("Digite o",num,"º número:")
+        leia(numFunc)
+        fatorial <- 1
+        fator <- 1
+        repita
+            fatorial <- fatorial*fator
+            fator <- fator + 1
+        ate nao(fator <= numFunc)
+        soma <- soma + fatorial
+        num <- num + 1
+	ate nao(num <= 15)
+	escreval("A soma dos fatores é:", soma)
+Fimalgoritmo

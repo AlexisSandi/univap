@@ -1,0 +1,13 @@
+Algoritmo "a"
+Var
+	num,res:inteiro
+Inicio
+		escreval("Números inteiros de 15 a 200:")
+		num <- 15
+		repita
+           escreval(num)
+           num <- num+1
+           res<- num*num
+           escreva ("Quadrado de ",num," =",res)
+		ate nao(num<=200)
+Fimalgoritmo

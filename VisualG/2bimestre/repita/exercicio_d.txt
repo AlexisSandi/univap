@@ -1,0 +1,11 @@
+Algoritmo "d"
+Var
+	num, soma:inteiro
+Inicio
+		num <- 2
+		repita
+          soma <- soma+num
+          num <- num + 2
+		ate nao(num <= 500)
+		escreval("A soma dos números pares de 1 à 500 é:", soma)
+Fimalgoritmo

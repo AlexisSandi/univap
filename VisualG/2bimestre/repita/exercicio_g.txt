@@ -1,0 +1,10 @@
+Algoritmo "g"
+Var
+	num:inteiro
+Inicio
+   escreval("Potências de 3 (de 0 à 15):")
+ 	repita
+      escreval("3^", num, " =", 3^num)
+      num <- num + 1
+   ate nao(num <= 15)
+Fimalgoritmo

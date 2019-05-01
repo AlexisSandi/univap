@@ -1,0 +1,18 @@
+Algoritmo "h"
+Var
+	base, expo, op:inteiro
+Inicio
+		repita
+			escreval("Insira a base")
+			leia(base)
+			escreval("Insira o expoente")
+			leia(expo)
+			escreval("A resposta é", base^expo)
+			escreval("Deseja continuar? (0 - Sim | 1 - Não)")
+			leia(op)
+			repita
+				escreval("Opção Inválida, digite apenas: [0 - Sim] ou [1 - Não]")
+				leia(op)
+			ate nao((op<0) ou (op>1))
+		ate nao(op=0)
+Fimalgoritmo

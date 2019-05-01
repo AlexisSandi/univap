@@ -1,0 +1,29 @@
+Algoritmo "q"
+Var
+   comodo:caractere
+	largura, comprimento, area, acumulado, continuar:inteiro
+Inicio
+      continuar <- 1
+      repita
+         limpatela
+         escreval("Digite o nome do cômodo:")
+         leia(comodo)
+         escreval("Digite a largura do cômodo:")
+         leia(largura)
+         escreval("Digite o comprimento do cômodo:")
+         leia(comprimento)
+         limpatela
+         se((largura<0) ou (comprimento<0)) entao
+            escreval("Não existe medida/área negativa!")
+         senao
+            area <- largura*comprimento
+            acumulado <- acumulado + area
+            escreval("O cômodo: '", comodo,"' tem a área de:",area," metros quadrados")
+         fimse
+         escreval("Deseja continuar?")
+         escreval("[1] - Continuar")
+         escreval("[Enter] - Finalizar")
+         leia(continuar)
+      ate nao(continuar = 1)
+      escreval("Valor da área total acumulada:", acumulado)
+Fimalgoritmo

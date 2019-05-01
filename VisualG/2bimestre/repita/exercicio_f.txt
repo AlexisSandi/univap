@@ -1,0 +1,13 @@
+Algoritmo "f"
+Var
+	num, soma:inteiro
+Inicio
+		num <- 1
+		repita
+          se (num%4=0) entao
+              soma <- soma+num
+          fimse
+          num <- num + 1
+		ate nao(num <= 200)
+		escreval("A soma dos divisíveis por 4 entre 0 à 200:", soma)
+Fimalgoritmo
