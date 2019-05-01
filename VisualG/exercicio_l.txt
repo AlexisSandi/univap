@@ -1,0 +1,11 @@
+Algoritmo "Dolar e Real"
+Var
+     Dolares,Dolar, Reais,TotalReais:Real
+Inicio
+ Escreva ("Digite o seu dinheiro em Dolares: ")
+ leia (Dolares)
+ Dolar<-3.25
+ TotalReais<-3.25*Dolares
+ Escreval ("O valor do dolar atualmente é de",Dolar)
+ Escreval ("O Valor do seu dinheiro em Reais é de aproximadamente = ", TotalReais) 
+Fimalgoritmo

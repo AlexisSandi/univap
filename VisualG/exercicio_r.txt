@@ -1,0 +1,24 @@
+Algoritmo "Eleicao e Percentual"
+Var
+    A,B,C,VB,VN,ET,VV: Real
+Inicio
+ escreva ("Digite a quantidade de votos do candidato A: ")
+ leia (A)
+ escreva ("Digite a quantidade de votos do candidato B: ")
+ leia (B)
+ escreva ("Digite a quantidade de votos do candidato C: ")
+ leia (C)
+ escreva ("Digite a quantidade de votos nulos: ")
+ leia (VN)
+ escreva ("Digite a quantidade de votos brancos: ")
+ leia (VB)
+ ET<-A+B+C+VN+VB
+ VV<-A+B+C
+ escreval ("O numero total de eleitores: ",ET)
+ escreval ("O numero total de votos validos: ",VV)
+ escreval ("A porcentagem de votos validos do candidato A: ",(A/VV)*100,"%")
+ escreval ("A porcentagem de votos validos do candidato B: ",(B/VV)*100,"%")
+ escreval ("A porcentagem de votos validos do candidato C: ",(C/VV)*100,"%")
+ escreval ("A porcentagem de votos nulos: ",(VN/ET)*100,"%")
+ escreval ("A porcentagem de votos brancos: ",(VB/ET)*100,"%")
+Fimalgoritmo

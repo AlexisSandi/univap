@@ -1,0 +1,30 @@
+Algoritmo "soma e Adição"
+
+Var
+ A,B,C,D:Real
+
+Inicio
+   Escreva ("Digite um numero para A: ")
+   leia (A)
+   Escreva ("Digite um numero para B: ")
+   leia (B)
+   Escreva ("Digite um numero para C: ")
+   leia (C)
+   Escreva ("Digite um numero para D: ")
+   leia (D)
+
+   Escreval ("O resultado da Multiplicação de A e B: " ,A*B)
+   Escreval ("O resultado da Multiplicação de A e C: " ,A*C)
+   Escreval ("O resultado da Multiplicação de A e D: " ,A*D)
+   Escreval ("O resultado da Multiplicação de B e C: " ,B*C)
+   Escreval ("O resultado da Multiplicação de B e D: " ,B*D)
+   Escreval ("O resultado da Multiplicação de C e D: " ,C*D)
+
+   Escreval ("O resultado da soma de A e B: " ,A+B)
+   Escreval ("O resultado da soma de A e C: " ,A+C)
+   Escreval ("O resultado da soma de A e D: " ,A+D)
+   Escreval ("O resultado da soma de B e C: " ,B+C)
+   Escreval ("O resultado da soma de B e D: " ,B+D)
+   Escreval ("O resultado da soma de C e D: " ,C+D)
+
+Fimalgoritmo

@@ -1,0 +1,12 @@
+Algoritmo "Reajuste"
+
+Var
+   SM,PR,NS: Real
+Inicio
+ Escreva ("Digite o valor do salario mensal: ")
+ leia (SM)
+ Escreva ("Digite o reajuste percentual: ")
+ leia(PR)
+ NS<-SM* (1+(PR/100))
+ Escreval ("O Valor do novo salario= ",NS)
+Fimalgoritmo

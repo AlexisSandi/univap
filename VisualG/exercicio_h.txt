@@ -1,0 +1,16 @@
+Algoritmo "Volume"
+
+Var
+
+     Al,Lar,Comp,Volume:Real
+Inicio
+ Escreval ("Digite A Altura da caixa: ")
+ leia (Al)
+ Escreval ("Largura: ")
+ leia (Lar)
+ Escreval ("Comprimento: ")
+ leia (Comp)
+ Volume<-Comp*Lar*Al
+ Escreva ("O volume da caixa retangular é: " ,Volume)
+
+Fimalgoritmo

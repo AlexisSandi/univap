@@ -1,0 +1,17 @@
+algoritmo "Viagem"
+
+var
+   T,V,D,L_U:Real
+inicio
+escreva ("Digite o tempo de sua viagem: ")
+leia (T)
+Escreva ("Agora, Digite a velocidade media da sua viagem: ")
+leia (V)
+D<-T*V
+L_U<-D/12
+Escreval ("Seu Tempo gasto na viagem = ",T)
+Escreval ("Sua velocidade media = ",V)
+Escreval ("Distancia percorrida = ",D)
+escreval ("Litros Usados = ",L_U)
+
+fimalgoritmo

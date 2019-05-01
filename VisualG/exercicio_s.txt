@@ -1,0 +1,14 @@
+Algoritmo "Eleicao e Percentual"
+Var
+    A,B:Real
+Inicio
+ escreva ("Digite um numero para A: ")
+ leia (A)
+ escreva ("Digite um numero para B: ")
+ leia (B)
+ escreval ("A soma de A e B = ",A+B)
+ escreval ("A diferenca de A e B = ",A-B)
+ escreval ("O produto de A e B = ",A*B)
+ escreval ("O quociente de A e B = ",A/B)
+
+Fimalgoritmo

@@ -1,0 +1,12 @@
+Algoritmo "Quadrado 3"
+Var
+    A,B,C: Real
+Inicio
+ Escreva ("Digite um numero: ")
+ leia (A)
+ Escreva ("Digite outro numero: ")
+ leia(B)
+ Escreva ("Digite mais um numero: ")
+ leia (C)
+ Escreval ("O Valor do quadrado da soma dos 3 numeros= ",(A+B+C)^2)
+Fimalgoritmo

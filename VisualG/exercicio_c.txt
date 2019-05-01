@@ -1,0 +1,16 @@
+algoritmo "Volume de uma lata"
+
+var
+R: Real
+A : Real
+V: Real
+inicio
+Escreval ("Medindo o volume de uma lata")
+ Escreva ("Digite o raio da circunferencia da lata: ")
+ leia ( R)
+Escreva ("Digite a Altura da lata: ")
+ leia ( A)
+ V<-3.14159*R^2*A
+ Escreva ("SUa lata tem o volume de = ",V)
+
+fimalgoritmo

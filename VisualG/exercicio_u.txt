@@ -1,0 +1,10 @@
+Algoritmo "Volume de esferas"
+Var
+    R,Volume:Real
+Inicio
+ escreva ("Digite o raio da esfera: ")
+ leia (R)
+ Volume<-(4/3)*3.14159*(R^3)
+ escreval ("O Volume da esfera = ",Volume)
+
+Fimalgoritmo

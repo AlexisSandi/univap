@@ -1,0 +1,18 @@
+Algoritmo "Produto e soma"
+
+Var
+    A,B,C,D,P,S: Real
+Inicio
+ Escreva ("Digite um numero: ")
+ leia (A)
+ Escreva ("Digite outro numero: ")
+ leia(B)
+ Escreva ("Digite mais um numero")
+ leia (C)
+ Escreva ("Digite mais um numero")
+ leia (D)
+ P<-A*C
+ S<-B+D
+ Escreval ("O Valor da Multiplicação do 1 e o 3 numero = ",P)
+ Escreval ("O Valor da soma do 2 e 4 numero = ",S)
+Fimalgoritmo

@@ -1,0 +1,10 @@
+Algoritmo "Quadrado"
+
+Var
+
+     numero, numero2:Inteiro
+Inicio
+ Escreval ("Digite o numero: ")
+ leia (numero)
+ Escreva ("O quadrado do seu nomero é=",numero^2)
+Fimalgoritmo

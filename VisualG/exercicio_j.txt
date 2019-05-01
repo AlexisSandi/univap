@@ -1,0 +1,16 @@
+Algoritmo "o Quadrado da diferença"
+
+Var
+
+     A,B,A2,B2,D:real
+Inicio
+ Escreval ("Digite um numero: ")
+ leia (A)
+ A2<-A*A
+ Escreva ("Digite outro menor que o primeiro numero: ")
+ leia (B)
+ B2<-B*B
+ D<-A2-B2
+
+ escreva ("o Quadrado da diferenca dos dois numeros=",D)
+Fimalgoritmo

@@ -1,0 +1,14 @@
+algoritmo "Prestação"
+
+var
+     Pr,Va,Tx,Temp:Real
+início
+    Escreval ("Digite o valor da prestação: ")
+leia (Va)
+     Escreval ("Agora, digite a taxa do atraso da prestação: ")
+leia (Tx)
+     Escreval ("Por último, digite o tempo em que atrasou a prestação: ")
+Leia (Temp)
+Pr<-Va+(Va*(Tx/100)*Temp)
+Escreva ("O valor atrasado de sua prestação no total é de: ", Pr)
+fimalgoritmo

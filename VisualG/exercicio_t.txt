@@ -1,0 +1,12 @@
+Algoritmo "Velocidade media m/s"
+Var
+    Velocidade,Duracao,Distancia:Real
+Inicio
+ escreva ("A distancia percorrida: ")
+ leia (Distancia)
+ escreva ("O tempo de duração: ")
+ leia (Duracao)
+ Velocidade<-(Distancia*1000)/(Duracao*60)
+ escreval ("A velocidade media do objeto = ",Velocidade)
+
+Fimalgoritmo

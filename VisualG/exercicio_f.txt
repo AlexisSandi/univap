@@ -1,0 +1,15 @@
+Algoritmo "Troca"
+
+Var
+A,B,C:inteiro
+Inicio
+ Escreval ("Digite um valor: ")
+ leia (A)
+ Escreval("Digite outro valor")
+ leia (B)
+ C<-A
+ A<-B
+ B<-C
+ Escreval ("O Valor de A: ",A)
+ Escreval ("O Valor de B: ",B)
+Fimalgoritmo
