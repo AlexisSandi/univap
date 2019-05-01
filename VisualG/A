@@ -1,7 +1,7 @@
 # a) algoritmo "Conversão C para F"
 
 var
-    Tc , Tf : Real
+    Tc, Tf : Real
 inicio
     Escreval ("Conversao C para F")
 Escreva ("Digite a temperatura em Celcius: ")
